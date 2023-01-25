@@ -27,9 +27,9 @@
                   <span class="visually-hidden">Лайки</span>
                 </a></li>
               <li class="navigation-item-button">
-                <a class="navigation-link-button" href="catalog.html">
-                  <button>ХОЧУ СЮДА!</button>
-                </a></li>
+                <form class="navigation-link-button" action="catalog.html">
+                  <input class="button" type="button" value="ХОЧУ СЮДА!">
+                </form></li>
             </ul>
         </nav>
     </header>
@@ -39,7 +39,7 @@
         <img class="logo" src="" alt="HTML Academy: Седона">
           <div class="subtitle">
             <h2>Седона — небольшой городок в Аризоне,
-  заслуживающий большего!</h2>
+            заслуживающий большего!</h2>
             <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
         </div>
 
@@ -54,7 +54,7 @@
                   </dd>
                 </div>
               </dl>
-              <img  class="photo-sity" src="#" alt="Фотография-города">
+              <img  class="photo-sity" src="" alt="Фотография-города">
             </div>
             <div class="second-row">
               <dl>
@@ -89,7 +89,7 @@
               </dl>
             </div>
             <div class="third-row">
-              <img  class="photo-canyon" src="#" alt="Фотография-каньона">
+              <img  class="photo-canyon" src="" alt="Фотография-каньона">
               <dl>
                 <div class="advantages-list">
                   <dt class="advantages-list-items">Там есть мост дьявола</dt>
@@ -143,31 +143,25 @@
         <h2 class="search-hotels">
           <span class="visually-hidden">Поиск отелей</span>
         </h2>
-        <h3 class="search-title"><p>ЗАИНТЕРЕСОВАЛИСЬ?</p></h3>
-        <p class="search-description">Укажите предполагаемые даты поездки,
+          <p>ЗАИНТЕРЕСОВАЛИСЬ?</p>
+          <p class="search-description">Укажите предполагаемые даты поездки,
           и мы покажем вам лучшие предложения гостиниц в Седоне</p>
 
-          <li class="search-item">
-            <a class="search-link" href="catalog.html">
+          <div class="search-item">
+            <form class="search-link" action="catalog.html">
               <button class="search-button" >ПОИСК ГОСТИНИЦ В СЕДОНЕ
               </button>
-            </a></li>
+            </form></div>
       </section>
-
 
       <section class="subscribe-hotels">
         <h2 class="subscribe-hotels">
-        <span class="visually-hidden">Подписка </span>
+          <span class="visually-hidden">Подписка </span>
         </h2>
-        <h3 class="subscribe-title">
           <p>ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
-        </h3>
           <p class="subscribe-description">Только полезная информация и
           никакого спама, честное бойскаутское!</p>
-
-
-          <form class="subscribe-form" action="https://echo.htmlacademy.ru/"
-            metod="post">
+          <form class="subscribe-form" action="https://echo.htmlacademy.ru/">
           <p><label class="visually-hidden" for="mail">Mail</label>
                 <input type="email" name="mail" id="mail"
                 placeholder="Ваш e-mail"></p>
@@ -179,27 +173,31 @@
 
   <footer class="page-footer">
     <section class="footer-social">
-    <ul class="footer-social-list">
-      <li class="footer-social-item">
-        <a class="button" href="https://vk.com/htmlacademy">
-          <span class="visually-hidden">Vkontakte</span>
-        </a>
-      </li>
-      <li class="footer-social-item">
-        <a class="button" href="https://t.me/htmlacademy">
-          <span class="visually-hidden">Telegram</span>
-        </a>
-      </li>
-      <li class="footer-social-item">
-        <a class="button" href="https://www.youtube.com/user/htmlacademyru">
-          <span class="visually-hidden">Youtube</span>
-        </a>
-      </li>
+      <h2><span class="visually-hidden">Социальные сети </span> </h2>
+        <ul class="footer-social-list">
+          <li class="footer-social-item">
+            <a class="button" href="https://vk.com/htmlacademy">
+              <span class="visually-hidden">Vkontakte</span>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a class="button" href="https://t.me/htmlacademy">
+              <span class="visually-hidden">Telegram</span>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a class="button" href="https://www.youtube.com/user/htmlacademyru">
+              <span class="visually-hidden">Youtube</span>
+            </a>
+          </li>
+        </ul>
     </section>
     <section class="footer-contacts">
-      <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+      <h2><span class="visually-hidden">Контакты </span> </h2>
+        <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
     </section>
     <section class="logo">
+      <h2><span class="visually-hidden">Логотип</span> </h2>
       <a href="https://htmlacademy.ru/"><img class="footer-logo" src="" alt="Логотип"></a>
         <span class="visually-hidden">logo</span>
     </section>
