@@ -35,8 +35,9 @@ button {
   border: none;
   padding: 8px 50px;
 }
+
 .button-search {
-   font-size: 20px;
+  font-size: 20px;
   line-height: 36px;
   font-weight: 700;
   text-align: center;
@@ -46,6 +47,7 @@ button {
   text-decoration: none;
   padding: 8px 50px;
 }
+
 .button-subscribe {
   color: #ffffff;
   background-color: #82B3D3;
@@ -65,6 +67,24 @@ button {
   text-decoration: none;
   text-transform: capitalize;
 }
+
+.navigation-link-search {
+  color: #000000;
+  background-color: #FFFFFF;
+  background-image: url("../images/header/search.svg");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  text-decoration: none;
+}
+.navigation-link-favorites {
+  color: #000000;
+  background-color: #FFFFFF;
+  background-image: url("../images/header/favorites.svg");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  text-decoration: none;
+}
+
 
 .hero {
   color: #000000;
