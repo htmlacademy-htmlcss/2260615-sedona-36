@@ -163,7 +163,7 @@ button {
   background-image: url("../images/main/subscribe.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
-  background-position: absolute;
+
 }
 
 .footer-contacts-phone {
@@ -186,10 +186,11 @@ button {
 
 .inner-title-filter {
   color: white;
+  background-color: #000;
   background-image: url("../images/catalog/filter-catalog.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: absolute;
+
 }
 
 .catalog-filter-title {
@@ -204,7 +205,8 @@ button {
   color: inherit;
   text-decoration: none;
 }
-.cards-style a{
+
+.cards-style a {
   text-decoration: none;
 }
 
