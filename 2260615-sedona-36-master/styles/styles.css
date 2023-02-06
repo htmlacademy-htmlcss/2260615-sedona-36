@@ -18,13 +18,12 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 26px;
-  font-weight: 400;
   color: #333333;
   background-color: #FFFFFF;
 
 }
 
-button {
+.button {
   font-family: inherit;
   font-size: 16px;
   line-height: 20px;
@@ -35,23 +34,12 @@ button {
   text-transform: uppercase;
   border: none;
   padding: 8px 50px;
+  text-decoration: none;
 }
 
 .button-search {
   font-size: 20px;
   line-height: 36px;
-  font-weight: 700;
-  text-align: center;
-  color: #ffffff;
-  background-color: #756157;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 8px 50px;
-}
-
-.button-subscribe {
-  color: #ffffff;
-  background-color: #82B3D3;
 }
 
 .page-header {
@@ -86,7 +74,6 @@ button {
   padding-left: 20px
 }
 
-
 .hero {
   color: #000000;
   background-color: #3b6286;
@@ -101,11 +88,7 @@ button {
   text-align: center;
 }
 
-.advantages-header,
-.recommendations-header,
-.search-header,
-.subscribe-hotels-header {
-  font-family: inherit;
+.header-section {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -113,45 +96,30 @@ button {
   color: #000000;
 }
 
-.advantages-item-name,
-.recommendations-item-name {
+.item-name {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
 }
 
-.advantages-item:first-child,
-.advantages-item:last-child {
+.blue-background {
   color: #FFFFFF;
   background-color: #82B3D3;
 }
 
-.advantages-item-desc,
-.recommendations-item-desc {
+.item-desc {
   font-size: 18px;
   line-height: 21px;
 }
 
-.advantages-item:nth-child(2),
-.advantages-item:nth-child(4) {
+.gray-background {
   color: #333333;
   background-color: rgba(131, 179, 211, 0.12);
 }
 
-
-.advantages-item:nth-child(3) {
+.dark-gray-background {
   color: #333333;
   background-color: rgba(131, 179, 211, 0.2);
-}
-
-.recommendations-item:nth-child(1) {
-  color: #333333;
-  background-color: rgba(131, 179, 211, 0.12);
-}
-
-.recommendations-item:nth-child(3) {
-  color: #333333;
-  background-color: rgba(131, 179, 211, 0.12);
 }
 
 .subscribe-hotels-header {
@@ -163,7 +131,6 @@ button {
   background-image: url("../images/main/subscribe.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
-
 }
 
 .footer-contacts-phone {
@@ -181,16 +148,14 @@ button {
   font-weight: 700;
   color: #000000;
   background-color: #FFFFFF;
-
 }
 
 .inner-title-filter {
-  color: white;
-  background-color: #000;
+  color: #FFFFFF;
+  background-color: #000000;
   background-image: url("../images/catalog/filter-catalog.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 
 .catalog-filter-title {
@@ -255,19 +220,6 @@ button {
   font-weight: 400;
 }
 
-.producr-card-button {
-  font-weight: 700;
-  color: #fff;
-  background-color: #756157;
-  text-decoration: none;
-  padding: 8px 50px;
-}
-
-.favorites {
-  background-color: #82B3D3;
-  padding: 8px 50px;
-}
-
 .rating {
   font-size: 16px;
   line-height: 20px;
@@ -277,19 +229,11 @@ button {
 .pagination-link {
   color: #FFFFFF;
   background-color: #82B3D3;
-  font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-  text-decoration: none;
 }
 
 .pagination-current {
-  color: #000;
+  color: #000000;
   background-color: #F2F2F2;
-}
-
-.subscribe-hotels-inner-header {
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
 }
