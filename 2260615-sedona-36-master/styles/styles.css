@@ -185,8 +185,10 @@ body {
   height: 406px;
 }
 
-.subscribe-hotels {
+.subscribe-hotels,
+.subscribe-hotels-inner  {
   height: 415px;
+  margin: 0 auto;
 }
 
 .page-footer-container {
@@ -289,8 +291,6 @@ body {
 
 .breadcrumbs{
 display: flex;
-
-
 }
 .breadcrumbs-link {
 
@@ -308,6 +308,15 @@ display: flex;
 .filter-button{
   width: 191px;
 height: 104px;
+}
+
+.catalog-formats{
+  display: flex;
+  width: 1060px;
+  height: 49px;
+  margin: 0 auto;
+  justify-content: space-between;
+
 }
 
 .cards-style a {
@@ -345,6 +354,19 @@ height: 104px;
   line-height: 21px;
 }
 
+.product-list{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right:0 auto;
+  justify-content: space-between;
+}
+
+.product-card{
+  width: 340px;
+  height: 438px;
+
+}
+
 .product-card-link {
   font-weight: 700;
   font-size: 24px;
@@ -366,11 +388,16 @@ height: 104px;
 }
 
 .pagination-link {
-  color: #FFFFFF;
+   color: #FFFFFF;
   background-color: #82B3D3;
   font-size: 20px;
   line-height: 36px;
-}
+   }
+
+  .pagination-list{
+    display: flex;
+    margin: 0 auto;
+    }
 
 .pagination-current {
   color: #000000;
