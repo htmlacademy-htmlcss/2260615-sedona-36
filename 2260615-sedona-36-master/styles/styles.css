@@ -14,13 +14,54 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 26px;
   color: #333333;
   background-color: #FFFFFF;
+}
 
+.main-container {
+  flex-grow: 1;
+}
+
+.page-header {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: flex;
+  width: 1200px;
+
+}
+
+.navigation-list {
+  width: 450px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-user {
+  width: 400px;
+  margin-left: auto;
+  padding: 22px 12px;
+}
+
+.navigation-link-button {
+  width: 200px;
+  border-radius: 4px;
 }
 
 .button {
@@ -52,6 +93,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
+  padding: 20px 16px;
   text-align: center;
   color: #000000;
   background-color: #FFFFFF;
@@ -75,6 +117,11 @@ body {
   padding-left: 20px
 }
 
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .hero {
   color: #000000;
   background-color: #3b6286;
@@ -96,6 +143,60 @@ body {
   text-transform: uppercase;
   color: #000000;
 }
+
+.advantages-block {
+  width: 1200px;
+  height: 261px;
+}
+
+.advantages-subtitle {
+  display: flex;
+}
+
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.block {
+  width: 400px;
+  height: 385px;
+}
+
+.photo-canyon {
+  order: -1;
+}
+
+.recommendations-list {
+  display: flex;
+  width: 1200px;
+  height: 385px;
+  margin: 0;
+  padding: 0;
+}
+
+.recomendation-footer {
+  height: 246px;
+}
+
+.search-hotels {
+  height: 406px;
+}
+
+.subscribe-hotels {
+  height: 415px;
+}
+
+.page-footer-container {
+  display: flex;
+  width: 1200px;
+  height: 120px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
 
 .item-name {
   font-size: 24px;
@@ -147,29 +248,66 @@ body {
   font-size: 60px;
   line-height: 78px;
   font-weight: 700;
-  color: #000000;
-  background-color: #FFFFFF;
 }
 
 .inner-title-filter {
+  display: flex;
+  flex-wrap: wrap;
   color: #FFFFFF;
   background-color: #000000;
   background-image: url("../images/catalog/filter-catalog.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  height: 412px;
+}
+
+.inner-header {
+  width: 1060px;
+  height: 107px;
+  margin: 0 auto;
+  color: #FFFFFF;
+}
+
+.catalog-filter-box {
+  width: 151px;
+  height: 157px;
+   }
+
+.catalog-filter {
+
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
 }
 
 .catalog-filter-title {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+
 }
 
+.breadcrumbs{
+display: flex;
+
+
+}
 .breadcrumbs-link {
+
   font-size: 16px;
   line-height: 21px;
   color: inherit;
   text-decoration: none;
+}
+
+.price-scale{
+  width: 288px;
+  height: 160px;
+}
+
+.filter-button{
+  width: 191px;
+height: 104px;
 }
 
 .cards-style a {
