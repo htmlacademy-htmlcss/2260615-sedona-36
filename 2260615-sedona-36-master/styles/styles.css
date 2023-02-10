@@ -18,20 +18,34 @@ html {
   height: 100%;
 }
 
-body {
-  margin: 0;
+.container {
   display: flex;
   flex-direction: column;
+  margin: 60px auto;
   min-height: 100%;
+  width: 1280px;
+  background: #F2F2F2;
+}
+
+.main-container {
+  flex-grow: 1;
+}
+
+.page-container {
+  margin-top: 0;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+}
+
+body {
+  height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 26px;
   color: #333333;
   background-color: #FFFFFF;
-}
-
-.main-container {
-  flex-grow: 1;
+  margin: 0;
 }
 
 .page-header {
@@ -41,6 +55,7 @@ body {
   color: #000000;
   background-color: #FFFFFF;
 }
+
 
 
 .navigation {
@@ -112,11 +127,6 @@ body {
   background-size: 20px 20px;
   text-decoration: none;
   padding-left: 20px
-}
-
-.page-container {
-  width: 1200px;
-  margin: 0 auto;
 }
 
 .hero {
@@ -194,6 +204,7 @@ body {
   height: 120px;
   margin: 0 auto;
   justify-content: space-between;
+  background-color: #FFFFFF;
 }
 
 .footer-social-list {
@@ -404,4 +415,12 @@ body {
 .pagination-current {
   color: #000000;
   background-color: #F2F2F2;
+}
+
+.pagination-item { 
+  padding: 40px 40px;
+}
+
+.footer-social-item {
+  padding: 10px;
 }
