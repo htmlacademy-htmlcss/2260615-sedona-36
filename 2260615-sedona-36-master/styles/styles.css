@@ -185,8 +185,6 @@ body {
   height: 406px;
 }
 
-
-
 .subscribe-hotels-inner {
   height: 415px;
   text-align: center;
@@ -260,7 +258,7 @@ body {
   font-size: 60px;
   line-height: 78px;
   font-weight: 700;
-  margin-bottom: 0 ;
+  margin-bottom: 0;
 }
 
 .inner-title-filter {
@@ -370,7 +368,6 @@ body {
 .product-list {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 0 auto;
   justify-content: space-between;
 }
 
