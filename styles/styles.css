@@ -21,21 +21,14 @@ html {
 .container {
   display: flex;
   flex-direction: column;
-  margin: 60px auto;
+  margin: 0 auto;
+  background: #FFFFFF;
+  width: 1200px;
   min-height: 100%;
-  width: 1280px;
-  background: #F2F2F2;
 }
 
 .main-container {
   flex-grow: 1;
-}
-
-.page-container {
-  margin-top: 0;
-  width: 1200px;
-  margin: 0 auto;
-  background-color: #FFFFFF;
 }
 
 body {
@@ -44,41 +37,31 @@ body {
   font-size: 22px;
   line-height: 26px;
   color: #333333;
-  background-color: #FFFFFF;
+  background-color: #F2F2F2;
   margin: 0;
 }
 
 .page-header {
   display: flex;
-  width: 1200px;
-  margin: 0 auto;
   color: #000000;
-  background-color: #FFFFFF;
+  margin: 0 70px;
 }
-
-
 
 .navigation {
   display: flex;
-  width: 1200px;
-
+  margin-left: 30px;
 }
 
 .navigation-list {
-  width: 450px;
   display: flex;
-  margin: 0;
   padding: 0;
 }
 
-.navigation-user {
-  width: 400px;
-  margin-left: auto;
-  padding: 22px 12px;
+.navigation-link {
+  padding: 20px 16px;
 }
 
 .navigation-link-button {
-  width: 200px;
   border-radius: 4px;
 }
 
@@ -151,10 +134,21 @@ body {
   color: #000000;
 }
 
-.advantages-block {
-  width: 1200px;
-  height: 261px;
+.advantages-block{
+  padding:69px 290px ;
 }
+
+.advantages-header{
+margin: 0;
+}
+
+.advantages-header-paragraph{
+    margin-top: 25px;
+}
+
+.advantages-box{
+margin: 0;
+padding: 82px 102px ;}
 
 .advantages-subtitle {
   display: flex;
@@ -169,7 +163,6 @@ body {
 
 .block {
   width: 400px;
-  height: 385px;
 }
 
 .photo-canyon {
@@ -178,33 +171,18 @@ body {
 
 .recommendations-list {
   display: flex;
-  width: 1200px;
-  height: 385px;
   margin: 0;
   padding: 0;
 }
 
-.recomendation-footer {
-  height: 246px;
-}
-
-.search-hotels {
-  height: 406px;
-}
-
 .subscribe-hotels-inner {
-  height: 415px;
   text-align: center;
   margin: 0 auto;
 }
 
 .page-footer-container {
   display: flex;
-  width: 1200px;
-  height: 120px;
-  margin: 0 auto;
   justify-content: space-between;
-  background-color: #FFFFFF;
 }
 
 .footer-social-list {
@@ -247,7 +225,6 @@ body {
   background-image: url("../images/main/subscribe.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
-  height: 415px;
   margin: 0 auto;
 }
 
@@ -275,19 +252,20 @@ body {
   background-image: url("../images/catalog/filter-catalog.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 412px;
+}
+
+.inner-catalog-box {
+  width: 1060px;
+  margin: 0 auto;
 }
 
 .inner-header {
-  width: 1060px;
-  height: 107px;
   margin: 0 auto;
   color: #FFFFFF;
 }
 
 .catalog-filter-box {
   width: 151px;
-  height: 157px;
 }
 
 .catalog-filter {
@@ -316,21 +294,14 @@ body {
 
 .price-scale {
   width: 288px;
-  height: 160px;
 }
 
-.filter-button {
-  width: 191px;
-  height: 104px;
-}
 
 .catalog-formats {
   display: flex;
-  width: 1060px;
   height: 49px;
   margin: 0 auto;
   justify-content: space-between;
-
 }
 
 .cards-style a {
@@ -409,7 +380,7 @@ body {
 
 .pagination-list {
   display: flex;
-  margin: 0 auto;
+  flex-direction: column;
 }
 
 .pagination-current {
@@ -417,8 +388,9 @@ body {
   background-color: #F2F2F2;
 }
 
-.pagination-item { 
-  padding: 40px 40px;
+.pagination-link {
+
+  padding: 12px;
 }
 
 .footer-social-item {
