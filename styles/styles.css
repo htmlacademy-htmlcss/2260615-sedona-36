@@ -75,27 +75,44 @@ body {
   list-style-type: none;
 }
 
+.navigation-link {
+  display: block;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  padding: 20px 16px;
+  text-align: center;
+  color: #000000;
+  background-color: #FFFFFF;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
 .navigation-user {
   margin-left: auto;
+  align-items: center;
   max-width: 300px;
   flex-wrap: wrap;
 }
 
-
 .navigation-link-search {
   background-image: url("../images/header/search.svg");
   background-repeat: no-repeat;
-  padding: 22px 12px;
 }
 
 .navigation-link-favorites {
   background-image: url("../images/header/favorites.svg");
   background-repeat: no-repeat;
-  background-size: 20px 20px;
 }
 
-.navigation-link-button {
-    border-radius: 4px;
+.navigation-user .navigation-link {
+  min-width: 22px;
+  min-height: 12px;
+}
+
+button.navigation-link-button {
+  padding: 8px 34px;
+  border-radius: 4px;
 }
 
 .button {
@@ -108,26 +125,9 @@ body {
   background-color: #756157;
   text-transform: uppercase;
   border: none;
+  border-radius: 4px;
   padding: 8px 50px;
   text-decoration: none;
-}
-
-.button-search {
-  font-size: 20px;
-  line-height: 36px;
-}
-
-.navigation-link {
-  display: block;
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 700;
-  padding: 20px 16px;
-  text-align: center;
-  color: #000000;
-  background-color: #FFFFFF;
-  text-decoration: none;
-  text-transform: capitalize;
 }
 
 .hero {
@@ -154,15 +154,15 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   color: #000000;
+  margin: 0;
 }
 
 .advantages-header {
   padding: 69px 290px 25px;
-  margin: 0;
 }
 
 .advantages-header-text {
-  padding: 0 275px 69px;
+  padding: 0 274px 69px;
 }
 
 .advantages-header {
@@ -199,7 +199,7 @@ body {
 .block .item-name {
   margin: 0;
   padding: 0 27px;
-  margin-bottom: 62px;
+  margin-bottom: 30px;
 }
 
 .block .item-desc {
@@ -221,7 +221,13 @@ body {
 }
 
 .recommendations-item {
+  display: flex;
+  flex-direction: column;
   padding: 81px 85px;
+  justify-content: center;
+}
+.home {
+  order: -1;
 }
 
 .recommendations-list {
@@ -231,14 +237,41 @@ body {
   list-style-type: none;
 }
 
+.recommendations-box {
+  display: flex;
+}
+
 .home {
-  order:-1 ;
+  margin: 0 78px 30px;
+  order: -1;
+}
+
+.food{
+  margin: 0 78px 30px;
+  order: -1;
+}
+
+.souvenir{
+  margin: 0 78px 30px;
+  order: -1;
+}
+
+.search-header {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  margin: 0;
+  padding: 96px 452px 20px;
+}
+
+.search-text {
+  margin: 0;
+  padding: 0 304px 54px;
 }
 
 .search-hotels {
-  padding: 96px 304px;
+  margin-bottom: 96px;
 }
-
 
 .subscribe-hotels-inner {
   text-align: center;
@@ -299,7 +332,6 @@ body {
   padding: 96px 258px 104px;
 }
 
-
 .footer-contacts-phone {
   font-size: 40px;
   line-height: 40px;
@@ -343,7 +375,6 @@ body {
 }
 
 .catalog-filter-type {
-
   padding-right: 140px;
 }
 
@@ -379,12 +410,12 @@ body {
   width: 288px;
 }
 
-
 .catalog-formats {
   display: flex;
   height: 49px;
   margin: 0 auto;
   justify-content: space-between;
+
 }
 
 .catalog {
@@ -399,6 +430,11 @@ body {
   list-style-type: none;
 }
 
+.catalog-filter-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
 
 .control {
   font-size: 18px;
@@ -425,7 +461,6 @@ body {
   font-size: 30px;
   line-height: 36px;
   margin: 0;
-
 }
 
 .select-control {
@@ -449,6 +484,9 @@ body {
   border: 1px solid #E6E6E6;
 }
 
+.product-card:nth-child(n+4){
+margin-top: 20px;
+}
 
 .product-card-link {
   font-weight: 700;
@@ -494,30 +532,34 @@ body {
   list-style-type: none;
 }
 
+.pagination-item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .pagination-link {
+  display: block;
+  box-sizing: border-box;
   color: #FFFFFF;
   background-color: #82B3D3;
   font-size: 20px;
   line-height: 36px;
-  margin-right: 8px;
   padding: 12px 24px;
   border-radius: 4px;
 }
 
 .pagination-item {
   min-width: 60px;
-
-
 }
 
 .pagination-current {
   color: #000000;
   background-color: #F2F2F2;
-  min-width: 160px;
+
 }
 
-.pagination-link-last{
-  margin-right: 0;
+.pagination-points {
+  color: #000000;
+  background-color: #ffffff;
 }
 
 .footer-social-link {
