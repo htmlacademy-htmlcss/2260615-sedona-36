@@ -106,8 +106,8 @@ body {
 }
 
 .navigation-user .navigation-link {
-min-width: 20px;
-min-height: 20px;
+  min-width: 22px;
+  min-height: 12px;
 }
 
 button.navigation-link-button {
@@ -156,7 +156,8 @@ button.navigation-link-button {
   color: #000000;
   margin: 0;
 }
-.advantages-header{
+
+.advantages-header {
   padding: 69px 290px 25px;
 }
 
@@ -250,6 +251,7 @@ button.navigation-link-button {
   margin: 0;
   padding: 0 304px 54px;
 }
+
 .search-hotels {
   margin-bottom: 96px;
 }
@@ -313,7 +315,6 @@ button.navigation-link-button {
   padding: 96px 258px 104px;
 }
 
-
 .footer-contacts-phone {
   font-size: 40px;
   line-height: 40px;
@@ -354,7 +355,6 @@ button.navigation-link-button {
   border: none;
   margin: 0;
   padding: 0;
-
 }
 
 .catalog-filter-type {
@@ -413,12 +413,11 @@ button.navigation-link-button {
   list-style-type: none;
 }
 
-.catalog-filter-list{
+.catalog-filter-list {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-
 
 .control {
   font-size: 18px;
@@ -468,6 +467,10 @@ button.navigation-link-button {
   border: 1px solid #E6E6E6;
 }
 
+.product-card:nth-child(n+4){
+margin-top: 20px;
+}
+
 .product-card-link {
   font-weight: 700;
   font-size: 24px;
@@ -512,30 +515,34 @@ button.navigation-link-button {
   list-style-type: none;
 }
 
+.pagination-item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .pagination-link {
+  display: block;
+  box-sizing: border-box;
   color: #FFFFFF;
   background-color: #82B3D3;
   font-size: 20px;
   line-height: 36px;
-  margin-right: 8px;
   padding: 12px 24px;
   border-radius: 4px;
 }
 
 .pagination-item {
   min-width: 60px;
-
-
 }
 
 .pagination-current {
   color: #000000;
   background-color: #F2F2F2;
-  min-width: 160px;
+
 }
 
-.pagination-link-last {
-  margin-right: 0;
+.pagination-points {
+  color: #000000;
+  background-color: #ffffff;
 }
 
 .footer-social-link {
