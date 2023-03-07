@@ -130,8 +130,9 @@ button.navigation-link-button {
   background-color: #756157;
   text-transform: uppercase;
   border: none;
-  padding: 8px 50px;
+  padding: 8px 26px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .hero {
@@ -503,7 +504,8 @@ margin: 0;
   font-size: 24px;
   line-height: 28px;
   margin: 0;
-  padding:  0;
+  margin-top: 16px;
+
 }
 
 .product-card-price {
@@ -529,13 +531,15 @@ margin: 0;
 
 .favorite{
   padding:  8px 20px;
-  
+
 }
 
 .rating {
+
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
+
 }
 
 .pagination-list {
@@ -597,4 +601,10 @@ margin: 0;
 }
 .button-subscribe{
   border-radius: 0px 4px 4px 0px;
+}
+
+.button-details{
+  display: grid;
+  align-items: center;
+  justify-content: center
 }
