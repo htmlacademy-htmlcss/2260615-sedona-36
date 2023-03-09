@@ -94,9 +94,14 @@ body {
   text-transform: capitalize;
 }
 
-.navigation-border{
-  border-bottom: 2px solid #756257;
-  width: 68px;
+.navigation-main-line::before{
+  position: absolute;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  height: 2px;
+  background-color: #756257;
+  content: "";
 }
 
 .navigation-user {
@@ -111,7 +116,6 @@ body {
   background-image: url("../images/header/search.svg");
   background-repeat: no-repeat;
   background-position: center;
-
 }
 
 .navigation-link-favorites {
@@ -119,8 +123,6 @@ body {
   url(../images/header/);
   background-repeat: no-repeat;
   background-position: center;
-
-
 }
 
 .navigation-user .navigation-link {
@@ -178,14 +180,11 @@ button.navigation-link-button {
 
 .advantages-header {
   padding: 69px 290px 25px;
+  margin: 0;
 }
 
 .advantages-header-text {
   padding: 0 274px 69px;
-}
-
-.advantages-header {
-  margin: 0;
 }
 
 .advantages-header-paragraph {
@@ -193,13 +192,43 @@ button.navigation-link-button {
 }
 
 .advantages-box {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-between;
   margin: 0;
-  padding: 82px 102px;
+  padding: 102px 85px;
 }
 
 .advantages-subtitle {
   display: flex;
 }
+
+.advantages-item-name{
+  position: relative;
+  margin: 0;
+}
+
+ .item-name::before{
+  position: absolute;
+  width: 60px;
+  height: 2px;
+  top: 86px;
+  left: 85px;
+  content: "";
+background: rgba(0, 0, 0, 0.3);
+
+}
+
+.advantages-item::before{
+  position: absolute;
+  width: 60px;
+  height: 2px;
+  top: 86px;
+  left: 85px;
+  content: "";
+background: rgba(255, 255, 255, 0.3);
+ }
 
 .advantages-list {
   display: flex;
@@ -209,26 +238,38 @@ button.navigation-link-button {
   list-style-type: none;
 }
 
+.advantages-block{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 112px 85px;
+  gap: 60px;
+  width: 230px;
+  }
+
+.item-desc{
+  margin: 0;
+}
+
 .block {
   width: 230px;
-  margin: 0;
   padding: 112px 85px;
 }
 
 .block .item-name {
-  margin: 0;
-  padding: 0 27px;
+   padding: 0 27px;
   margin-bottom: 30px;
-}
-
-.block .item-desc {
-  margin: 0;
 }
 
 .photo-canyon {
   order: -1;
 }
 
+.advantages-center{
+padding-left: 27px;
+padding-right: 27px
+}
 .recommendations-header {
   padding: 64px 348px 20px;
   margin: 0;
@@ -246,10 +287,6 @@ button.navigation-link-button {
   justify-content: center;
 }
 
-.home {
-  order: -1;
-}
-
 .recommendations-list {
   display: flex;
   margin: 0;
@@ -259,6 +296,9 @@ button.navigation-link-button {
 
 .recommendations-box {
   display: flex;
+}
+.recommendations-item-name{
+  margin:0;
 }
 
 .home {
@@ -609,7 +649,9 @@ padding: 8px 50px;
 .subscribe-hotels-text {
   margin: 20px 105px 54px;
 }
+
 .button-subscribe{
+  padding: 8px 50px;
   border-radius: 0px 4px 4px 0px;
 }
 
