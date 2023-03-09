@@ -94,7 +94,7 @@ body {
   text-transform: capitalize;
 }
 
-.navigation-main-line::before{
+.navigation-main-line::before {
   position: absolute;
   right: 16px;
   bottom: 0;
@@ -109,7 +109,6 @@ body {
   align-items: center;
   max-width: 300px;
   flex-wrap: wrap;
-
 }
 
 .navigation-link-search {
@@ -120,20 +119,28 @@ body {
 
 .navigation-link-favorites {
   background-image: url("../images/header/favorites.svg"),
-  url(../images/header/);
+    url(../images/header/);
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.favirites-number {
+  position: absolute;
+  font-size: 10px;
+  line-height: 10px;
+  font-weight: 400;
+  max-width: 11px;
+  padding: 5px;
+  color: #ffffff;
+  background-color: #7DB54F;
+  border-radius: 50%;
+  top: 7px;
+  right: 7px;
 }
 
 .navigation-user .navigation-link {
   min-width: 22px;
   min-height: 12px;
-}
-
-button.navigation-link-button {
-  margin-left: 20px;
-  padding: 8px 34px;
-  border-radius: 4px;
 }
 
 .button {
@@ -150,6 +157,30 @@ button.navigation-link-button {
   text-decoration: none;
   cursor: pointer;
 }
+
+.navigation-link-button {
+  margin-left: 20px;
+  padding: 8px 34px;
+  border-radius: 4px;
+}
+
+.navigation-link-button:hover {
+  background-color: #615048;
+}
+
+.navigation-link-button:focus {
+  background-color: #615048;
+  outline: none;
+}
+
+.navigation-link-button:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.navigation-link-button:disabled {
+  background-color: #E5E5E5;
+}
+
 
 .hero {
   color: #000000;
@@ -192,6 +223,7 @@ button.navigation-link-button {
 }
 
 .advantages-box {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: baseline;
@@ -200,35 +232,46 @@ button.navigation-link-button {
   padding: 102px 85px;
 }
 
+.advantages-block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 112px 85px;
+  gap: 60px;
+  width: 230px;
+}
+
 .advantages-subtitle {
   display: flex;
 }
 
-.advantages-item-name{
+.advantages-item-name {
   position: relative;
   margin: 0;
 }
 
- .item-name::before{
+.item-name::before {
   position: absolute;
   width: 60px;
   height: 2px;
   top: 86px;
   left: 85px;
   content: "";
-background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.3);
 
 }
 
-.advantages-item::before{
+.advantages-item::before {
   position: absolute;
   width: 60px;
   height: 2px;
   top: 86px;
   left: 85px;
   content: "";
-background: rgba(255, 255, 255, 0.3);
- }
+  background: rgba(255, 255, 255, 0.3);
+}
 
 .advantages-list {
   display: flex;
@@ -238,17 +281,7 @@ background: rgba(255, 255, 255, 0.3);
   list-style-type: none;
 }
 
-.advantages-block{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 112px 85px;
-  gap: 60px;
-  width: 230px;
-  }
-
-.item-desc{
+.item-desc {
   margin: 0;
 }
 
@@ -258,7 +291,7 @@ background: rgba(255, 255, 255, 0.3);
 }
 
 .block .item-name {
-   padding: 0 27px;
+  padding: 0 27px;
   margin-bottom: 30px;
 }
 
@@ -266,10 +299,11 @@ background: rgba(255, 255, 255, 0.3);
   order: -1;
 }
 
-.advantages-center{
-padding-left: 27px;
-padding-right: 27px
+.advantages-center {
+  padding-left: 27px;
+  padding-right: 27px
 }
+
 .recommendations-header {
   padding: 64px 348px 20px;
   margin: 0;
@@ -297,8 +331,9 @@ padding-right: 27px
 .recommendations-box {
   display: flex;
 }
-.recommendations-item-name{
-  margin:0;
+
+.recommendations-item-name {
+  margin: 0;
 }
 
 .home {
@@ -332,7 +367,8 @@ padding-right: 27px
 .search-hotels {
   margin-bottom: 96px;
 }
-.search-button{
+
+.search-button {
   border-radius: 4px;
 }
 
@@ -345,9 +381,9 @@ padding-right: 27px
 .page-footer-container {
   display: flex;
   justify-content: space-between;
-   margin: 40px 70px 30px;
-   padding: 5px 0;
-   align-items: center;
+  margin: 40px 70px 30px;
+  padding: 5px 0;
+  align-items: center;
 }
 
 .footer-social-list {
@@ -453,7 +489,7 @@ padding-right: 27px
   list-style-type: none;
   padding: 0;
   margin: 0;
-   }
+}
 
 .breadcrumbs {
   display: flex;
@@ -471,20 +507,18 @@ padding-right: 27px
 }
 
 .price {
-margin: 0;
- }
+  margin: 0;
+}
 
-.filter-button{
+.filter-button {
   display: grid;
   gap: 32px;
   margin-top: 56px;
-   }
+}
 
 .catalog-formats {
   display: flex;
-  height: 49px;
   margin: 0 auto;
-  justify-content: space-between;
   margin-bottom: 40px;
 }
 
@@ -493,6 +527,7 @@ margin: 0;
   margin: 0;
   padding: 0;
   list-style-type: none;
+
 }
 
 .control {
@@ -509,13 +544,13 @@ margin: 0;
   background-color: #82B3D3;
 }
 
-.catalog-button-accept{
+.catalog-button-accept {
   border-radius: 4px;
 }
 
 .catalog-button-reset {
   border-radius: 4px;
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .catalog-results {
@@ -527,8 +562,33 @@ margin: 0;
 }
 
 .select-control {
+  width: 292px;
   font-size: 18px;
   line-height: 21px;
+  color: #333333;
+  appearance: none;
+  border: 2px solid #e5e5e5;
+  border-radius: 4px;
+  padding: 12px 20px;
+  background-image: url("../images/catalog/arrow_down.svg");
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  padding-right: 40px;
+  margin-right: 70px;
+  margin-left: 200px;
+}
+
+.select-control:hover {
+  border-color: #68a2ca;
+}
+
+.select-control:focus {
+  border-color: #68A2CA;
+  outline: none;
+}
+
+.select-control:disabled {
+  border: 2px solid rgba(0, 0, 0, 0.3);
 }
 
 .product-list {
@@ -543,7 +603,7 @@ margin: 0;
 .product-card {
   display: grid;
   grid-template-columns: 140px 140px;
-   gap: 16px 20px;
+  gap: 16px 20px;
   padding: 20px;
   border: 1px solid #E6E6E6;
 }
@@ -574,16 +634,16 @@ margin: 0;
   font-weight: 400;
 }
 
-.product-card-value{
+.product-card-value {
   margin-left: auto;
 }
 
-.search-button{
-padding: 8px 50px;
+.search-button {
+  padding: 8px 50px;
 }
 
-.favorite{
-  padding:  8px 20px;
+.favorite {
+  padding: 8px 20px;
 }
 
 .rating {
@@ -640,19 +700,18 @@ padding: 8px 50px;
   border: inherit;
   border-radius: 4px 0px 0px 4px;
   background: #F2F2F2;
+
 }
 
 .subscribe-form {
   display: flex;
- }
+}
 
 .subscribe-hotels-text {
   margin: 20px 105px 54px;
 }
 
-.button-subscribe{
+.button-subscribe {
   padding: 8px 50px;
   border-radius: 0px 4px 4px 0px;
 }
-
-
