@@ -255,6 +255,7 @@ body {
   justify-content: space-between;
   margin: 0;
   padding: 102px 85px;
+
 }
 
 .advantages-block {
@@ -266,6 +267,9 @@ body {
   padding: 112px 85px;
   gap: 60px;
   width: 230px;
+  flex-grow: 1;
+
+
 }
 
 .advantages-subtitle {
@@ -407,6 +411,7 @@ body {
 }
 
 .search-button {
+  font-size: 20px;
   border-radius: 4px;
   padding: 8px 50px;
 }
@@ -867,6 +872,7 @@ body {
 
 .subscribe-form {
   display: flex;
+
 }
 
 .subscribe-hotels-text {
@@ -874,6 +880,7 @@ body {
 }
 
 .button-subscribe {
+  font-size: 20px;
   padding: 8px 50px;
   border-radius: 0px 4px 4px 0px;
 }
