@@ -77,18 +77,21 @@
             <ul class="catalog-filter-list">
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input class="control-input" type="checkbox" name="infrastructure" value="swimingpool" checked>
+                  <span> </span>
+                  <input class="control-input " type="checkbox" name="infrastructure" value="swimingpool" checked>
                   Бассейн
                 </label>
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
+                  <span> </span>
                   <input class="control-input" type="checkbox" name="infrastructure" value="parking" checked>
                   Парковка
                 </label>
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
+                  <span> </span>
                   <input class="control-input" type="checkbox" name="infrastructure" value="Wi-Fi">
                   Wi-Fi
                 </label>
@@ -101,18 +104,21 @@
             <ul class="catalog-filter-list">
               <li class="catalog-filter-item">
                 <label class="control">
+                  <span> </span>
                   <input class="control-input" type="radio" name="hotel" value="hotel" checked>
                   Гостиница
                 </label>
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
+                  <span> </span>
                   <input class="control-input" type="radio" name="hotel" value="motel">
                   Мотель
                 </label>
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
+                  <span> </span>
                   <input class="control-input" type="radio" name="hotel" value="apartments">
                   Апартаменты
                 </label>
@@ -125,11 +131,11 @@
             <div class="range">
               <div class="range">
               <label class="scale-from-range">
-                <input class="scale-from-start-number" type="number" value="0">
+                <input class="scale-from-start-number scale-from-start-min" type="number" value="0">
                 <span>от</span>
               </label>
               <label class="scale-from-range">
-                <input class="scale-from-start-number" type="number" value="9000">
+                <input class=" scale-from-start-number scale-from-start-max" type="number" value="9000">
                 <span>до</span>
               </label>
             </div>
@@ -137,10 +143,10 @@
           <div class="range-line">
             <div class="range-scale">
               <div class="range-bar" style="left: 0px; width: 217px" >
-                <button class="range-toggle toggle-min">
+                <button  type="button" class="range-toggle toggle-min">
                   <span class="visually-hidden">Изменить минимальную цену.</span>
                 </button>
-                <button class="range-toggle toggle-max">
+                <button  type="button" class="range-toggle toggle-max">
                   <span class="visually-hidden">Изменить максимальную цену.</span>
                 </button>
               </div>

@@ -555,13 +555,14 @@ body {
 
 .inner-catalog-box {
   padding: 50px 70px 60px;
-}
+ }
 
 .catalog-filter-box {
   width: 151px;
   border: none;
   margin: 0;
   padding: 0;
+
 }
 
 .catalog-filter {
@@ -628,8 +629,13 @@ body {
 
 }
 
-.scale-from-start-number {
+.scale-from-start-min {
   margin-right: 2px;
+  border-radius: 4px 0px 0px 4px;
+}
+.scale-from-start-max {
+
+  border-radius: 0px 4px 4px 0px;
 }
 
 .range-scale {
@@ -637,6 +643,7 @@ body {
   height: 4px;
   background-color: rgba(170, 170, 170, 0.3);
   margin-top: 48px;
+  cursor: pointer;
 }
 
 .range-bar {
@@ -644,7 +651,7 @@ body {
   display: flex;
   height: 4px;
   background-color: #FFFFFF;
-}
+ }
 
 .range-toggle {
   border-radius: 5px;
@@ -653,6 +660,19 @@ body {
   border: 0;
   top: -8px;
   background-color: #ffffff;
+  cursor: pointer;
+}
+.range-toggle:hover{
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.range-toggle:active,
+.range-toggle:focus{
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  outline: 3px solid #83B3D3;
+}
+
+.scale-from-start-number:hover{
 
 }
 
@@ -662,15 +682,12 @@ body {
 
 .toggle-min {
   position: absolute;
-
-
 }
 
 .toggle-max {
   position: absolute;
   left: 207px;
 }
-
 
 .breadcrumbs {
   display: flex;
@@ -679,7 +696,6 @@ body {
   padding: 0;
   justify-content: flex-start;
   align-items: center;
-
 }
 
 .breadcrumbs-link {
