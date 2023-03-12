@@ -554,6 +554,7 @@ line-height: 36px;
 }
 
 .catalog-filter-box {
+
   width: 151px;
   border: none;
   margin: 0;
@@ -572,6 +573,7 @@ line-height: 36px;
   margin-bottom: 32px;
   font-size: 20px;
   line-height: 24px;
+  font-weight: 700;
 }
 
 .catalog-filter-list {
@@ -580,6 +582,44 @@ line-height: 36px;
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+
+.range{
+display: flex;
+}
+
+.range input{
+  width: 143px;
+  padding: 0;
+  height: 48px;
+  padding: 12px 20px;
+  padding-right: 40px;
+  border: none;
+  box-sizing: border-box;
+
+}
+
+.scale-from-range{
+  position: relative;
+  display: flex;
+
+}
+
+.range span{
+position: absolute;
+color: rgba(170, 170, 170);
+content: "";
+top: 10px;
+right: 20px;
+
+
+}
+
+.scale-from-start-number{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+
 }
 
 .breadcrumbs {
@@ -876,6 +916,7 @@ line-height: 36px;
   border: inherit;
   border-radius: 4px 0px 0px 4px;
   background: #F2F2F2;
+  padding: 14px 20px;
 
 }
 
@@ -891,8 +932,7 @@ line-height: 36px;
 }
 
 .button-subscribe {
-
-  font-size: 22px;
+  font-size: 20px;
     line-height: 36px;
   padding: 8px 50px;
   border-radius: 0px 4px 4px 0px;

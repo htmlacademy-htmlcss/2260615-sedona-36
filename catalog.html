@@ -119,14 +119,25 @@
               </li>
             </ul>
           </fieldset>
-          <h3 class="visually-hidden">Стоимость
-          </h3>
-          <div class="price-scale">
-            <p class="price">Стоимость, Р:
-            </p>
-            <span>0</span>
-            <span>9000</span>
-          </div>
+          <fieldset class="catalog-price-range catalog-filter-box">
+            <legend class="catalog-filter-title">Стоимость, ₽:</legend>
+
+            <div class="range">
+              <label class="scale-from-range">
+                <input class="scale-from-start-number" type="number" value="0">
+                <span>от</span>
+              </label>
+              <label class="scale-from-range">
+                <input class="scale-from-start-number" type="number" value="9000">
+                <span>до</span>
+              </label>
+            </div>
+
+            <div class="range-scale">
+
+            </div>
+          </fieldset>
+
           <div class="filter-button">
             <button class="button catalog-button-accept button-state-blue" type="submit">ПРИМЕНИТЬ
             </button>
@@ -331,7 +342,8 @@
         <form class="subscribe-form" action="https://echo.htmlacademy.ru/">
           <label class="visually-hidden" for="mail">Mail
           </label>
-          <input class="subscribe-email" type="email" name="mail" id="mail" placeholder="    Ваш e-mail">
+          <input class="subscribe-email" type="email"
+          name="mail" id="mail" placeholder="Ваш e-mail">
           <button class="button button-subscribe button-state-blue" type="submit">
             ПОДПИСАТЬСЯ
           </button>
