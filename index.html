@@ -145,8 +145,7 @@
         <p class="search-text">Укажите предполагаемые даты поездки,<br>
           и мы покажем вам лучшие предложения гостиниц в Седоне
         </p>
-        <a type="button" class="button search-button button-state"
-        href="catalog.html">ПОИСК ГОСТИНИЦ В СЕДОНЕ
+        <a type="button" class="button search-button button-state" href="catalog.html">ПОИСК ГОСТИНИЦ В СЕДОНЕ
         </a>
       </section>
 
@@ -215,6 +214,84 @@
         </a>
       </div>
     </footer>
+  </div>
+
+  <div class="modal-container ">
+    <div class="modal">
+      <button class="modal-close-button">
+        <span class="visually-hidden">Закрыть</span>
+      </button>
+
+      <section class="modal-content">
+        <h2 class="modal-title">Поиск гостиниц в седоне</h2>
+        <form class="modal-form-search" action="https://echo.htmlacademy.ru/" method="post">
+          <p class="modal-form-group calendar">
+            Дата Заезда:
+            <label class="visually-hidden" for="date-check-in">27 апреля 2020</label>
+            <input class="date-check" type="text" id="date-check-in" name="date-check-in"
+            placeholder="Укажите дату">
+          </p>
+          <p class="modal-form-group calendar">
+            Дата Выезда:
+            <label class="visually-hidden" for="date-check-out">27 апреля 2020</label>
+            <input class="date-check" type="text" id="date-check-out" name="date-check-out"
+              placeholder="27 апреля 2020">
+          </p>
+
+
+          <div class=" block-of-people">
+            <p class="modal-form-group ">
+              Взрослые:
+              <span class="people-field-wrapper">
+                <button class=" modal-form-button minus" type="button">
+                  <svg class="modal-form-button-svg" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fokusable="false" width="20" height="20" viewBox="0 0 20 20">
+                    <path fill-opacity=".3" d="M3 9v2h14V9H3Z" />
+                  </svg>
+                  <span class="visually-hidden">Минус</span>
+                </button>
+                <label class="visually-hidden" for="number-of-persons"> </label>
+                <input class="number-of-people remove-the-scale" type="number" id="number-of-persons"
+                  name="number-of-persons-adult" value="2">
+                <button class="modal-form-button plus" type="button">
+                  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fokusable="false" width="20" height="20" viewBox="0 0 20 20">
+                    <path fill-opacity=".3" d="M17 9h-6V3H9v6H3v2h6v6h2v-6h6V9Z" />
+                  </svg>
+                  <span class="visually-hidden">Плюс</span>
+                </button>
+            </p>
+            </span>
+            <p class="modal-form-group ">
+              Дети:
+              <span class="item-helper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none" viewBox="0 0 26 26"><circle cx="13" cy="13" r="13" fill="#83B3D3"/><path fill="#fff" fill-rule="evenodd" d="M12 7h2v2h-2V7Zm2 12h-2v-9h2v9Z" clip-rule="evenodd"/></svg>
+              </span>
+                           <span class="people-field-wrapper">
+                <button class="modal-form-button minus" type="button">
+                  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fokusable="false" width="20" height="20" viewBox="0 0 20 20">
+                    <path fill-opacity=".3" d="M3 9v2h14V9H3Z" />
+                  </svg>
+                  <span class="visually-hidden">Минус</span>
+                </button>
+                <label class="visually-hidden" for="number-of-persons"> </label>
+                <input class="number-of-people remove-the-scale" type="number" id="number-of-persons"
+                  name="number-of-persons-young" value="2">
+                <button class="modal-form-button plus" type="button">
+                  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fokusable="false" width="20" height="20" viewBox="0 0 20 20">
+                    <path fill-opacity=".3" d="M17 9h-6V3H9v6H3v2h6v6h2v-6h6V9Z" />
+                  </svg>
+                  <span class="visually-hidden">Плюс</span>
+                </button>
+            </p>
+          </div>
+          <button class="button button-state-blue modal-button-search" type="submit">
+            Найти
+          </button>
+
+        </form>
+      </section>
+
+
+    </div>
   </div>
 </body>
 
