@@ -1040,15 +1040,12 @@ body {
   background-color: #ffffff;
 }
 
-
-
 .subscribe-email {
   flex-grow: 1;
   border: inherit;
   border-radius: 4px 0px 0px 4px;
   background: #F2F2F2;
   padding: 14px 20px;
-
 }
 
 .subscribe-form {
@@ -1151,25 +1148,23 @@ body {
   border-radius: 4px;
 }
 
-  .date-check:hover{
+.date-check:hover {
   background: #E6E6E6;
-  }
+}
 
- .date-check:focus{
+.date-check:focus {
   background: #E6E6E6;
   outline: 3px solid #83B3D3;
 }
 
-.date-check:not(:placeholder-shown){
+.date-check:not(:placeholder-shown) {
   background: #F2F2F2;
   outline: 2px solid #000000;
-
 }
 
-.date-check:disabled{
+.date-check:disabled {
   opacity: 0.5;
 }
-
 
 .modal-form-group {
   position: relative;
@@ -1185,8 +1180,39 @@ body {
   color: #000000;
 }
 
-.item-helper{
-margin-left: 10px;
+.modal-form-group-child {
+  margin-left: auto;
+}
+
+.item-helper {
+   margin-left: 10px;
+}
+
+.item-helper-active {
+  margin: 0;
+  padding: 0;
+}
+
+.popover-helper {
+  position: absolute;
+    display: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+   top: 0;
+  right: 0;
+  z-index: 1;
+  box-sizing: border-box;
+  width: 256px;
+  padding: 20px;
+  margin: 0;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #333333;
+}
+
+.item-helper:hover .popover-helper {
+  display: block;
 }
 
 .block-of-people {
@@ -1194,10 +1220,9 @@ margin-left: 10px;
   position: relative;
   margin: 0;
   padding: 0;
-  justify-content: space-between;
 }
 
-.number-of-people{
+.number-of-people {
   display: flex;
   position: relative;
   text-align: center;
@@ -1221,7 +1246,7 @@ margin-left: 10px;
   border-radius: 10px;
 }
 
-.calendar::after{
+.calendar::after {
   position: absolute;
   content: "";
   background-image: url("..//images/modal/calendar.svg");
@@ -1232,43 +1257,40 @@ margin-left: 10px;
   top: 14px;
 }
 
-.people-field-wrapper{
+.people-field-wrapper {
   display: flex;
   margin: 0;
   margin-left: 46px;
   padding: 0;
 }
 
-.modal-form-button{
+.modal-form-button {
   border: none;
   padding: 14px 10px;
   cursor: pointer;
 }
 
-.modal-form-button:hover{
-   fill: #000000;
-
+.modal-form-button:hover {
+  fill: #000000;
 }
-.modal-form-button:focus{
+
+.modal-form-button:focus {
   fill: #000000;
   outline: 3px solid #82B3D3;
 }
-.modal-form-button:active{
-  fill: #000000;
 
+.modal-form-button:active {
+  fill: #000000;
 }
 
-
-.minus{
-
+.minus {
   border-radius: 4px 0px 0px 4px;
 }
 
-.plus{
-
+.plus {
   border-radius: 0px 4px 4px 0px;
 }
 
-.modal-container-close{
-display: none;
+.modal-container-close {
+  display: none;
 }
