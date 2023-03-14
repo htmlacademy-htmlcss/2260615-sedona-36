@@ -425,7 +425,7 @@ body {
 }
 
 .search-button {
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
@@ -916,7 +916,7 @@ body {
 }
 
 .select-control {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   width: 292px;
   font-size: 18px;
@@ -1056,7 +1056,7 @@ margin-left: 2px;
 }
 
 .subscribe-email {
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 24px;
   flex-grow: 1;
@@ -1135,7 +1135,7 @@ margin-left: 2px;
 }
 
 .modal-title {
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -1155,7 +1155,7 @@ margin-left: 2px;
 
 .date-check {
   position: relative;
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
@@ -1192,7 +1192,7 @@ margin-left: 2px;
   margin: 0;
   justify-content: space-between;
   align-items: center;
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -1271,7 +1271,7 @@ margin-left: 2px;
   padding: 13px 10px;
   border: none;
   background-color: #F2F2F2;
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -1338,7 +1338,7 @@ margin-left: 2px;
   bottom: -25px;
   left: 157px;
   margin: 0;
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
