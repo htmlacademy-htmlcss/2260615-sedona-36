@@ -162,7 +162,7 @@ body {
 }
 
 .navigation-link-button {
-    margin-left: 20px;
+  margin-left: 20px;
   padding: 8px 34px;
   border-radius: 4px;
 }
@@ -322,7 +322,7 @@ body {
 }
 
 .item-desc {
-    margin: 0;
+  margin: 0;
   font-size: 18px;
   line-height: 21px;
 }
@@ -380,12 +380,12 @@ body {
 }
 
 .food {
-  margin: 0 78px  ;
+  margin: 0 78px;
   order: -1;
 }
 
 .souvenir {
-  margin: 0 78px ;
+  margin: 0 78px;
   order: -1;
 }
 
@@ -411,6 +411,8 @@ body {
 }
 
 .search-button {
+  font-family: 'PT Sans';
+  font-weight: 700;
   font-size: 20px;
   line-height: 36px;
   border-radius: 4px;
@@ -483,6 +485,7 @@ body {
 }
 
 .subscribe-hotels {
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -967,7 +970,7 @@ body {
   font-size: 24px;
   line-height: 28px;
   margin: 0;
- margin-top: 12px;
+  margin-top: 12px;
 }
 
 .product-card-price {
@@ -1042,6 +1045,9 @@ body {
 }
 
 .subscribe-email {
+  font-family: 'PT Sans';
+  font-size: 18px;
+  line-height: 24px;
   flex-grow: 1;
   border: inherit;
   border-radius: 4px 0px 0px 4px;
@@ -1177,7 +1183,7 @@ body {
   align-items: center;
   font-family: 'PT Sans';
   font-style: normal;
-     font-weight: 700;
+  font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   color: #000000;
@@ -1189,10 +1195,10 @@ body {
 
 .item-helper {
   position: relative;
-   margin-left: 10px;
+  margin-left: 10px;
 }
 
-.item-helper::before{
+.item-helper::before {
   position: absolute;
   content: "";
 
@@ -1204,7 +1210,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
- top: 52px;
+  top: 52px;
   right: 42px;
   z-index: 1;
   box-sizing: border-box;
@@ -1216,11 +1222,11 @@ body {
   background-color: #333333;
 }
 
-  .item-helper:hover + .popover-helper{
-    display: block;
+.item-helper:hover+.popover-helper {
+  display: block;
 }
 
-.box-helper{
+.box-helper {
   align-self: center;
 }
 
@@ -1302,22 +1308,22 @@ body {
   border-radius: 0px 4px 4px 0px;
 }
 
-.text-eror{
-position: absolute;
-top:52px;
-left: 137px;
+.text-eror {
+  position: absolute;
+  top: 52px;
+  left: 137px;
   margin: 0;
   padding: 0 20px;
   gap: 0;
   font-family: 'PT Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 21px;
-color: #FF5757;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FF5757;
 }
 
-.text-ok{
+.text-ok {
   color: #333333;
 }
 
