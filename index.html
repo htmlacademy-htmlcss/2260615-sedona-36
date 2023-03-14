@@ -96,7 +96,7 @@
           </li>
           <li class="advantages-item advantages-subtitle ">
             <div class="advantages-box">
-              <h3 class="advantages-item-name advantages-item item-name ">ТАМ ЕСТЬ МОСТ ДЬЯВОЛА
+              <h3 class="advantages-item-name advantages-item item-name ">ТАМ ЕСТЬ <br>МОСТ ДЬЯВОЛА
               </h3>
               <p class="advantages-item-name item-desc">Да, по нему можно пройти! Если вы осмелитесь, разумеется
               </p>
@@ -113,26 +113,26 @@
         <p class="recommendations-text"> Опытный персонал и качественное обслуживание!
         </p>
         <ul class="recommendations-list">
-          <li class="recommendations-item block gray-background">
+          <li class="recommendations-item   gray-background">
             <h3 class="recommendations-item-name item-name">ЖИЛЬЕ
             </h3>
             <img class="home" width="75" height="72" src="images/main/home.svg" alt="Дом">
-            <p class="recommendations-item-desc item-desc"> Рекомендуем пожить в настоящем мотеле, всё как в кино!
+            <p class="recommendations-item-desc item-desc"> Рекомендуем пожить<br> в настоящем мотеле,<br> всё как в кино!
             </p>
           </li>
-          <li class="recommendations-item block">
+          <li class="recommendations-item  ">
             <h3 class="recommendations-item-name item-name">ЕДА
             </h3>
             <img class="food" width="74" height="70" src="images/main/food.svg" alt="Еда">
-            <p class="recommendations-item-desc item-desc">Всегда заказывайте топовый фирменный бургер, вы не
+            <p class="recommendations-item-desc item-desc">Всегда заказывайте <br>топовый фирменный бургер, вы не
               разочаруетесь!
             </p>
           </li>
-          <li class="recommendations-item block gray-background">
+          <li class="recommendations-item  gray-background">
             <h3 class="recommendations-item-name item-name">СУВЕНИРЫ
             </h3>
             <img class="souvenir" width="64" height="76" src="images/main/souvenir.svg" alt="Сувениры">
-            <p class="recommendations-item-desc item-desc"> Не только китайского, но и настоящего местного
+            <p class="recommendations-item-desc item-desc"> Не только китайского,<br> но и настоящего местного
               производства!
             </p>
           </li>
@@ -216,7 +216,7 @@
     </footer>
   </div>
 
-  <div class="modal-container modal-container-close">
+  <div class="modal-container modal-container-close ">
     <div class="modal">
       <button class="modal-close-button">
         <span class="visually-hidden">Закрыть</span>
@@ -226,15 +226,14 @@
         <h2 class="modal-title">Поиск гостиниц в седоне</h2>
         <form class="modal-form-search" action="https://echo.htmlacademy.ru/" method="post">
           <p class="modal-form-group calendar">
-            Дата Заезда:
-            <label class="visually-hidden" for="date-check-in">27 апреля 2020</label>
+            <label class="" for="date-check-in">Дата Заезда:</label>
             <input class="date-check" type="text" id="date-check-in" name="date-check-in" placeholder="Укажите дату">
+            <span class="text-eror">Мы не можем отправить вас в прошлое.</span>
           </p>
           <p class="modal-form-group calendar">
-            Дата Выезда:
-            <label class="visually-hidden" for="date-check-out">27 апреля 2020</label>
-            <input class="date-check" type="text" id="date-check-out" name="date-check-out"
-            placeholder="Укажите дату">
+            <label for="date-check-out">Дата Выезда:</label>
+            <input class="date-check" type="text" id="date-check-out" name="date-check-out" placeholder="Укажите дату">
+            <span class="text-eror text-ok">На эти даты есть свободные номера. Пока есть.</span>
           </p>
 
           <div class="block-of-people">
@@ -246,49 +245,57 @@
                     fokusable="false" width="20" height="20" viewBox="0 0 20 20">
                     <path fill-opacity=".3" d="M3 9v2h14V9H3Z" />
                   </svg>
-                  <span class="visually-hidden">Минус</span>
+                  <span class="visually-hidden">Минус
+                  </span>
                 </button>
-                <label class="visually-hidden" for="number-of-persons"> </label>
-                <input class="number-of-people remove-the-scale" type="number" id="number-of-persons"
+                <label class="visually-hidden" for="number-of-persons">
+                </label>
+                <input class="number-of-people remove-the-scale"
+                 type="number" id="number-of-persons"
                   name="number-of-persons-adult" value="2">
                 <button class="modal-form-button plus" type="button">
                   <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fokusable="false" width="20" height="20"
                     viewBox="0 0 20 20">
                     <path fill-opacity=".3" d="M17 9h-6V3H9v6H3v2h6v6h2v-6h6V9Z" />
                   </svg>
-                  <span class="visually-hidden">Плюс</span>
+                  <span class="visually-hidden">Плюс
+                  </span>
                 </button>
+              </span>
             </p>
-            </span>
             <p class="modal-form-group modal-form-group-child">
               Дети:
-              <span class="item-helper">
-                <svg class="item-helper" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none"
-                  viewBox="0 0 26 26">
-                  <circle cx="13" cy="13" r="13" fill="#83B3D3" />
-                  <path fill="#fff" fill-rule="evenodd" d="M12 7h2v2h-2V7Zm2 12h-2v-9h2v9Z" clip-rule="evenodd" />
+            <div class="box-helper">
+              <svg class="item-helper" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none"
+                viewBox="0 0 26 26">
+                <circle cx="13" cy="13" r="13" fill="#83B3D3" />
+                <path fill="#fff" fill-rule="evenodd" d="M12 7h2v2h-2V7Zm2 12h-2v-9h2v9Z" clip-rule="evenodd" />
+              </svg>
+              <p class="popover-helper">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18
+                лет. Дети до 6 лет размещаются бесплатно.
+              </p>
+            </div>
+
+            <span class="people-field-wrapper">
+              <button class="modal-form-button minus" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fokusable="false" width="20" height="20"
+                  viewBox="0 0 20 20">
+                  <path fill-opacity=".3" d="M3 9v2h14V9H3Z" />
                 </svg>
-                <p class="popover-helper">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</p>
-                        </span>
-              <span class="people-field-wrapper">
-                <button class="modal-form-button minus" type="button">
-                  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fokusable="false" width="20" height="20"
-                    viewBox="0 0 20 20">
-                    <path fill-opacity=".3" d="M3 9v2h14V9H3Z" />
-                  </svg>
-                  <span class="visually-hidden">Минус</span>
-                </button>
-                <label class="visually-hidden" for="number-of-persons"> </label>
-                <input class="number-of-people remove-the-scale" type="number" id="number-of-persons"
-                  name="number-of-persons-young" value="2">
-                <button class="modal-form-button plus" type="button">
-                  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fokusable="false" width="20" height="20"
-                    viewBox="0 0 20 20">
-                    <path fill-opacity=".3" d="M17 9h-6V3H9v6H3v2h6v6h2v-6h6V9Z" />
-                  </svg>
-                  <span class="visually-hidden">Плюс</span>
-                </button>
-            </p>
+                <span class="visually-hidden">Минус</span>
+              </button>
+              <label class="visually-hidden" for="number-of-persons"> </label>
+              <input class="number-of-people remove-the-scale" type="number" id="number-of-persons"
+                name="number-of-persons-young" value="2">
+              <button class="modal-form-button plus" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fokusable="false" width="20" height="20"
+                  viewBox="0 0 20 20">
+                  <path fill-opacity=".3" d="M17 9h-6V3H9v6H3v2h6v6h2v-6h6V9Z" />
+                </svg>
+                <span class="visually-hidden">Плюс</span>
+              </button>
+              </p>
+
           </div>
           <button class="button button-state-blue modal-button-search" type="submit">
             Найти
