@@ -438,14 +438,14 @@ body {
 .subscribe-hotels-inner {
   text-align: center;
   margin: 0 auto;
-  padding: 89px 258px 104px;
+  padding: 96px 258px 104px;
 }
 
 .page-footer-container {
   display: flex;
   justify-content: space-between;
-  margin: 43px 70px 30px 70px;
-
+  margin: 43px 70px 30px;
+  align-content: flex-start;
   align-self: center;
   align-items: center;
 }
@@ -454,7 +454,6 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
-
   list-style-type: none;
 }
 
@@ -516,6 +515,7 @@ body {
   background-color: #FFFFFF;
   text-align: center;
   text-decoration: none;
+  margin-left: 14px;
 }
 
 .footer-contacts-phone:hover {
@@ -1011,6 +1011,11 @@ body {
   text-transform: uppercase;
 }
 
+.pagination {
+margin-top: -8px;
+margin-left: 2px;
+}
+
 .pagination-list {
   display: flex;
   padding: 0;
@@ -1022,6 +1027,7 @@ body {
 
 .pagination-item:not(:last-child) {
   margin-right: 8px;
+
 }
 
 .pagination-link {
@@ -1036,7 +1042,7 @@ body {
 }
 
 .pagination-item {
-  min-width: 60px;
+  max-width: 60px;
 }
 
 .pagination-current {
@@ -1066,6 +1072,7 @@ body {
 }
 
 .subscribe-hotels-text {
+  margin: 0;
   margin-top: 20px;
   margin-bottom: 54px;
   padding: 0 105px;
