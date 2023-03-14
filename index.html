@@ -75,20 +75,20 @@
             <img class="photo-sity" width="800" height="384" src="images/main/advantages-photo-1.jpg"
               alt="Фотография-города">
           </li>
-          <li class="advantages-block advantages-item  gray-background">
+          <li class="advantages-block   gray-background">
             <h3 class="advantages-item-name item-name advantages-item-line">Небольшая площадь
             </h3>
             <p class="advantages-item-name item-desc">Все достопримечательности находятся очень близко
             </p>
           </li>
 
-          <li class="advantages-block advantages-item dark-gray-background ">
+          <li class="advantages-block  dark-gray-background ">
             <h3 class="advantages-item-name item-name advantages-center advantages-item-line">КРАСИВАЯ ДОРОГА
             </h3>
             <p class="advantages-item-name item-desc">Ехать в Седону из Лас-Вегаса совсем не скучно!
             </p>
           </li>
-          <li class="advantages-block advantages-item gray-background">
+          <li class="advantages-block gray-background">
             <h3 class="advantages-item-name item-name advantages-center advantages-item-line">МАЛО ТУРИСТОВ
             </h3>
             <p class="advantages-item-name item-desc">Большинство едет в Гранд Каньон и толпится там
@@ -120,7 +120,7 @@
             <p class="recommendations-item-desc item-desc"> Рекомендуем пожить<br> в настоящем мотеле,<br> всё как в кино!
             </p>
           </li>
-          <li class="recommendations-item  ">
+          <li class="recommendations-item">
             <h3 class="recommendations-item-name item-name">ЕДА
             </h3>
             <img class="food" width="74" height="70" src="images/main/food.svg" alt="Еда">
@@ -145,7 +145,7 @@
         <p class="search-text">Укажите предполагаемые даты поездки,<br>
           и мы покажем вам лучшие предложения гостиниц в Седоне
         </p>
-        <a type="button" class="button search-button button-state" href="catalog.html">ПОИСК ГОСТИНИЦ В СЕДОНЕ
+        <a type="button" class="button search-button button-state" href="catalog.html">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ
         </a>
       </section>
 
@@ -216,22 +216,22 @@
     </footer>
   </div>
 
-  <div class="modal-container modal-container-close ">
+  <div class="modal-container modal-container-close">
     <div class="modal">
       <button class="modal-close-button">
         <span class="visually-hidden">Закрыть</span>
       </button>
 
-      <section class="modal-content">
-        <h2 class="modal-title">Поиск гостиниц в седоне</h2>
+      <section class="modal-content  ">
+        <h2 class="modal-title">Поиск гостиницы в седоне</h2>
         <form class="modal-form-search" action="https://echo.htmlacademy.ru/" method="post">
           <p class="modal-form-group calendar">
-            <label class="" for="date-check-in">Дата Заезда:</label>
+            <label class="modal-date" for="date-check-in">Дата Заезда:</label>
             <input class="date-check" type="text" id="date-check-in" name="date-check-in" placeholder="Укажите дату">
             <span class="text-eror">Мы не можем отправить вас в прошлое.</span>
           </p>
           <p class="modal-form-group calendar">
-            <label for="date-check-out">Дата Выезда:</label>
+            <label class="modal-date" for="date-check-out">Дата Выезда:</label>
             <input class="date-check" type="text" id="date-check-out" name="date-check-out" placeholder="Укажите дату">
             <span class="text-eror text-ok">На эти даты есть свободные номера. Пока есть.</span>
           </p>
@@ -250,8 +250,8 @@
                 </button>
                 <label class="visually-hidden" for="number-of-persons">
                 </label>
-                <input class="number-of-people remove-the-scale"
-                 type="number" id="number-of-persons"
+                <input class="number-of-people"
+                 type="text" id="number-of-persons"
                   name="number-of-persons-adult" value="2">
                 <button class="modal-form-button plus" type="button">
                   <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fokusable="false" width="20" height="20"
@@ -285,7 +285,7 @@
                 <span class="visually-hidden">Минус</span>
               </button>
               <label class="visually-hidden" for="number-of-persons"> </label>
-              <input class="number-of-people remove-the-scale" type="number" id="number-of-persons"
+              <input class="number-of-people" type="text" id="number-of-persons"
                 name="number-of-persons-young" value="2">
               <button class="modal-form-button plus" type="button">
                 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fokusable="false" width="20" height="20"
