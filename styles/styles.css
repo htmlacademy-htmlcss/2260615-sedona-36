@@ -168,7 +168,6 @@ body {
   border-radius: 4px;
 }
 
-
 .button-state:hover {
   background-color: #615048;
 }
@@ -265,7 +264,6 @@ body {
 }
 
 .advantages-header {
-
   margin: 0;
 }
 
@@ -516,7 +514,6 @@ body {
   background-color: #FFFFFF;
   text-align: center;
   text-decoration: none;
-
 }
 
 .footer-contacts-phone:hover {
@@ -686,7 +683,6 @@ body {
   background: #E6E6E6;
 }
 
-
 .scale-from-start-number:focus {
   background: #E6E6E6;
   outline: 3px solid #83B3D3;
@@ -777,7 +773,6 @@ body {
   justify-content: flex-start;
   align-items: center;
   margin-top: 8px;
-
 }
 
 .breadcrumbs-link {
@@ -813,7 +808,6 @@ body {
   padding: 15px 14px;
   border-radius: 4px;
   border: 2px solid #E5E5E5;
-
 }
 
 .cards-style-active {
@@ -1032,7 +1026,6 @@ body {
 
 .pagination-item:not(:last-child) {
   margin-right: 8px;
-
 }
 
 .pagination-link {
@@ -1356,7 +1349,7 @@ body {
   color: #333333;
 }
 
-/*  .modal-container-close {
+.modal-container-close {
   display: none;
 }
- */
+
