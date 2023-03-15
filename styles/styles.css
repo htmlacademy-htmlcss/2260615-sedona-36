@@ -185,9 +185,11 @@ body {
 .button-state:disabled {
   background-color: #E5E5E5;
 }
- .button-state-green{
+
+.button-state-green {
   background: #7DB54F;
 }
+
 .button-state-green:hover {
   background-color: #6C9E42;
 }
@@ -253,10 +255,11 @@ body {
   color: #000000;
   margin: 0;
 }
-.advantages-block-title{
+
+.advantages-block-title {
   display: flex;
   flex-direction: column;
-     width: 651px;
+  width: 651px;
   padding: 69px 275px 90px;
   gap: 25px;
 }
@@ -275,7 +278,6 @@ body {
   justify-content: space-between;
   margin: 0;
   padding: 102px 85px;
-
 }
 
 .advantages-block {
@@ -380,7 +382,7 @@ body {
   padding: 0;
   list-style-type: none;
   align-items: center;
-   }
+}
 
 .recommendations-item-name {
   margin: 0;
@@ -847,7 +849,7 @@ body {
   margin: 0 auto;
   margin-bottom: 39px;
   align-items: center;
- }
+}
 
 .cards-style-list {
   display: flex;
@@ -857,7 +859,8 @@ body {
   list-style-type: none;
   gap: 8px;
 }
-.cards-style-item{
+
+.cards-style-item {
   width: 48px;
   box-sizing: border-box;
 }
@@ -1201,7 +1204,8 @@ body {
   line-height: 24px;
   color: #000000;
 }
-.modal-date{
+
+.modal-date {
   width: 120px;
 }
 
@@ -1217,7 +1221,7 @@ body {
 .item-helper::before {
   position: absolute;
   content: "";
-  }
+}
 
 .popover-helper {
   position: absolute;
@@ -1237,14 +1241,14 @@ body {
   background-color: #333333;
 }
 
-.popover-helper::before{
+.popover-helper::before {
   position: absolute;
   content: "";
- background-image: url(..//images/modal/modal-helper.svg);
- width: 20px;
- height: 9px;
- top: -9px;
- left: 119px;
+  background-image: url(..//images/modal/modal-helper.svg);
+  width: 20px;
+  height: 9px;
+  top: -9px;
+  left: 119px;
 }
 
 .item-helper:hover+.popover-helper {
@@ -1351,6 +1355,8 @@ body {
 .text-ok {
   color: #333333;
 }
-  .modal-container-close {
+
+/*  .modal-container-close {
   display: none;
 }
+ */
