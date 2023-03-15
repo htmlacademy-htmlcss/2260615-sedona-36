@@ -457,7 +457,7 @@ body {
 }
 
 .social-link {
-  padding: 13px 12px;
+  padding: 13px 13px;
   fill: #83B3D3;
 }
 
@@ -514,7 +514,7 @@ body {
   background-color: #FFFFFF;
   text-align: center;
   text-decoration: none;
-  margin-left: 14px;
+  
 }
 
 .footer-contacts-phone:hover {
