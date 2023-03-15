@@ -514,7 +514,7 @@ body {
   background-color: #FFFFFF;
   text-align: center;
   text-decoration: none;
-  
+
 }
 
 .footer-contacts-phone:hover {
@@ -775,6 +775,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   margin-top: 8px;
+
 }
 
 .breadcrumbs-link {
@@ -807,9 +808,10 @@ body {
 
 .cards-style {
   display: block;
-  padding: 16px;
+  padding: 15px 14px;
   border-radius: 4px;
   border: 2px solid #E5E5E5;
+
 }
 
 .cards-style-active {
@@ -845,13 +847,19 @@ body {
   margin: 0 auto;
   margin-bottom: 39px;
   align-items: center;
-}
+ }
 
 .cards-style-list {
   display: flex;
   margin: 0;
+
   padding: 0;
   list-style-type: none;
+  gap: 8px;
+}
+.cards-style-item{
+  width: 48px;
+  box-sizing: border-box;
 }
 
 .price {
@@ -929,8 +937,8 @@ body {
   background-repeat: no-repeat;
   background-position: right 20px center;
   padding-right: 40px;
+  margin-left: auto;
   margin-right: 70px;
-  margin-left: 200px;
 }
 
 .select-control:hover {
@@ -1009,11 +1017,7 @@ body {
   line-height: 20px;
   text-transform: uppercase;
 }
-
-.pagination {
-margin-top: -8px;
-margin-left: 2px;
-}
+ 
 
 .pagination-list {
   display: flex;
