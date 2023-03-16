@@ -119,8 +119,7 @@ body {
 }
 
 .navigation-link-favorites {
-  background-image: url("../images/header/favorites.svg"),
-    url(../images/header/);
+  background-image: url("../images/header/favorites.svg");
   background-repeat: no-repeat;
   background-position: center;
   padding: 22px 12px;
@@ -463,12 +462,13 @@ body {
 
 .social-link:hover {
   outline: none;
-  fill: #68A2CA
+  fill: #68A2CA;
 }
 
 .social-link:focus {
-  outline: none;
-  fill: #68A2CA
+  outline: 114px solid #f30404;
+  fill: #68A2CA;
+  background-color: #000000;
 }
 
 .social-link:active {
@@ -591,7 +591,7 @@ body {
   margin: 0;
 }
 
-.control {
+.control{
   position: relative;
   padding-left: 36px;
   display: flex;
@@ -610,8 +610,9 @@ body {
   border-radius: 4px;
 }
 
+
 .control-input[type="checkbox"]:checked+.box-control {
-  background-image: url(..//images/catalog/mark.svg);
+  background-image: url("../images/catalog/mark.svg");
 }
 
 .box-control:focus {
@@ -655,7 +656,7 @@ body {
 }
 
 .control-input[type="radio"]:checked+.box-control-radio {
-  background-image: url(..//images/catalog/point.svg);
+  background-image: url("../images/catalog/point.svg");
 }
 
 .range {
@@ -788,14 +789,14 @@ body {
 .breadcrumbs-link-house {
   width: 41px;
   height: 15px;
-  background-image: url(..//images/catalog/home.svg);
+  background-image: url("../images/catalog/home.svg");
   background-repeat: no-repeat;
 }
 
 .breadcrumbs-link-house::after {
   position: absolute;
   display: block;
-  background-image: url(..//images/catalog/arrow_left.svg);
+  background-image: url("../images/catalog/arrow_left.svg");
   top: 2px;
   width: 7px;
   height: 11px;
@@ -879,31 +880,31 @@ body {
 }
 
 .star-1 {
-  background: url(../images/catalog/stars.svg);
+  background: url("../images/catalog/stars.svg");
   background-repeat: no-repeat;
   background-position: 0 10px;
 }
 
 .star-2 {
-  background: url(../images/catalog/stars.svg), url(../images/catalog/stars.svg);
+  background: url("../images/catalog/stars.svg"), url("../images/catalog/stars.svg");
   background-repeat: no-repeat;
   background-position: 0 10px, 24px 10px;
 }
 
 .star-3 {
-  background: url(../images/catalog/stars.svg), url(../images/catalog/stars.svg), url(../images/catalog/stars.svg);
+  background: url("../images/catalog/stars.svg"), url("../images/catalog/stars.svg"), url("../images/catalog/stars.svg");
   background-repeat: no-repeat;
   background-position: 0 10px, 24px 10px, 48px 10px;
 }
 
 .star-4 {
-  background: url(../images/catalog/stars.svg), url(../images/catalog/stars.svg), url(../images/catalog/stars.svg), url(../images/catalog/stars.svg);
+  background: url("../images/catalog/stars.svg"), url("../images/catalog/stars.svg"), url("../images/catalog/stars.svg"), url("../images/catalog/stars.svg");
   background-repeat: no-repeat;
   background-position: 0 10px, 24px 10px, 48px 10px, 72px 10px;
 }
 
 .star-5 {
-  background: url(../images/catalog/stars.svg), url(../images/catalog/stars.svg), url(../images/catalog/stars.svg), url(../images/catalog/stars.svg), url(../images/catalog/stars.svg);
+  background: url("../images/catalog/stars.svg"), url("../images/catalog/stars.svg"), url("../images/catalog/stars.svg"), url("../images/catalog/stars.svg"), url("../images/catalog/stars.svg");
   background-repeat: no-repeat;
   background-position: 0 10px, 24px 10px, 48px 10px, 72px 10px, 96px 10px;
 }
@@ -1109,7 +1110,7 @@ body {
   content: "";
   top: 64px;
   right: 52px;
-  background-image: url(..//images/modal/modal_close.svg);
+  background-image: url("../images/modal/modal_close.svg");
   background-repeat: no-repeat;
   background-position: center;
   border: none;
@@ -1125,6 +1126,7 @@ body {
 .modal-close-button:focus {
   background-color: #E6E6E6;
   outline: 3px solid #83B3D3;
+
 }
 
 .modal-close-button:active {
@@ -1238,7 +1240,7 @@ body {
 .popover-helper::before {
   position: absolute;
   content: "";
-  background-image: url(..//images/modal/modal-helper.svg);
+  background-image: url("../images/modal/modal-helper.svg");
   width: 20px;
   height: 9px;
   top: -9px;
@@ -1290,7 +1292,7 @@ body {
 .calendar::after {
   position: absolute;
   content: "";
-  background-image: url("..//images/modal/calendar.svg");
+  background-image: url("../images/modal/calendar.svg");
   background-repeat: no-repeat;
   width: 20px;
   height: 20px;
@@ -1350,7 +1352,7 @@ body {
   color: #333333;
 }
 
-.modal-container-close {
+ .modal-container-close {
   display: none;
 }
 
