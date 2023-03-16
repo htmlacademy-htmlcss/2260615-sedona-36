@@ -475,6 +475,10 @@ body {
   fill: rgba(104, 162, 202, 0.3);
 }
 
+.social-link:disabled {
+  fill: rgba(202, 127, 104, 0.3);
+}
+
 .item-name {
   font-size: 24px;
   line-height: 28px;
