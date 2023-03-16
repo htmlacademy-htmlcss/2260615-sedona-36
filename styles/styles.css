@@ -663,6 +663,7 @@ body {
 }
 
 .range input {
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
