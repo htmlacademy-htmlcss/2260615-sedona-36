@@ -595,7 +595,7 @@ body {
   margin: 0;
 }
 
-.control{
+.control {
   position: relative;
   padding-left: 36px;
   display: flex;
@@ -661,6 +661,8 @@ body {
 
 .control-input[type="radio"]:checked+.box-control-radio {
   background-image: url("../images/catalog/point.svg");
+  position: absolute;
+ 
 }
 
 .range {
@@ -939,6 +941,7 @@ body {
   background-image: url("../images/catalog/arrow_down.svg");
   background-repeat: no-repeat;
   background-position: right 20px center;
+  background-color: #ffffff;
   padding-right: 40px;
   margin-left: auto;
   margin-right: 70px;
@@ -964,6 +967,8 @@ body {
   margin-bottom: 40px;
   padding: 0;
   gap: 20px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #E6E6E6;
 }
 
 .product-card {
@@ -1025,9 +1030,8 @@ body {
   display: flex;
   padding: 0;
   margin: 0;
-  padding-top: 40px;
-  list-style-type: none;
-  border-top: 1px solid #E6E6E6;
+    list-style-type: none;
+
 }
 
 .pagination-item:not(:last-child) {
@@ -1356,7 +1360,6 @@ body {
   color: #333333;
 }
 
- .modal-container-close {
+.modal-container-close {
   display: none;
 }
-
