@@ -1345,14 +1345,12 @@ body {
 
 .modal-form-button-svg:hover{
   fill: #000000;
-
    }
 
      .modal-form-button-svg:active{
       fill: #000000;
-
        }
 
-/*  .modal-container-close {
+  .modal-container-close {
   display: none;
-}   */
+}
