@@ -160,11 +160,13 @@ body {
   box-sizing: border-box;
   border-radius: 4px;
   margin: auto 0;
-}
+  }
 
 .navigation-link-button {
   margin-left: 20px;
   padding: 8px 34px;
+
+  width: 160px;
 }
 
 .button-state:hover {
@@ -195,7 +197,7 @@ body {
 .button-state-green:focus {
   background-color: #6C9E42;
   outline: none;
-}
+  }
 
 .button-state-green:active {
   background: #7DB54F;
@@ -454,8 +456,8 @@ body {
 }
 
 .social-link:focus {
-  outline: 114px solid #f30404;
-  fill: #68A2CA;
+  outline: none;
+   fill: #68A2CA;
   background-color: #000000;
 }
 
@@ -591,6 +593,7 @@ body {
   font-size: 18px;
   line-height: 23px;
   flex-wrap: nowrap;
+  align-items: center;
 }
 
 .box-control {
@@ -912,6 +915,7 @@ body {
   font-size: 30px;
   line-height: 36px;
   margin: 0;
+  text-transform: uppercase;
 }
 
 .select-control {
@@ -1001,7 +1005,7 @@ body {
 
 .favorite {
   padding: 8px 18px;
-}
+  }
 
 .rating {
   background: #F2F2F2;
