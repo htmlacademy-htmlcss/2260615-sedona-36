@@ -1306,19 +1306,12 @@ body {
   border: none;
   padding: 14px 10px;
   cursor: pointer;
+  outline: none;
 }
-
-.modal-form-button:hover {
-  fill: #000000;
-}
-
-.modal-form-button:focus {
+.modal-form-button:focus-within .modal-form-button-svg{
   fill: #000000;
   outline: 3px solid #82B3D3;
-}
-
-.modal-form-button:active {
-  fill: #000000;
+  border-radius: 4px;;
 }
 
 .minus {
@@ -1346,6 +1339,20 @@ body {
   color: #333333;
 }
 
-.modal-container-close {
-  display: none;
+.modal-form-button-svg{
+ fill:  rgba(117, 97, 87, 0.3);
 }
+
+.modal-form-button-svg:hover{
+  fill: #000000;
+
+   }
+
+     .modal-form-button-svg:active{
+      fill: #000000;
+
+       }
+
+/*  .modal-container-close {
+  display: none;
+}   */
