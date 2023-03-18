@@ -89,7 +89,6 @@ body {
   padding: 20px 16px;
   text-align: center;
   color: #000000;
-  background-color: #FFFFFF;
   text-decoration: none;
   text-transform: capitalize;
 }
@@ -160,7 +159,7 @@ body {
   box-sizing: border-box;
   border-radius: 4px;
   margin: auto 0;
-  }
+}
 
 .navigation-link-button {
   margin-left: 20px;
@@ -175,7 +174,6 @@ body {
 
 .button-state:focus {
   background-color: #615048;
-  outline: none;
 }
 
 .button-state:active {
@@ -196,8 +194,7 @@ body {
 
 .button-state-green:focus {
   background-color: #6C9E42;
-  outline: none;
-  }
+}
 
 .button-state-green:active {
   background: #7DB54F;
@@ -218,7 +215,6 @@ body {
 
 .button-state-blue:focus {
   background-color: #68A2CA;
-  outline: none;
 }
 
 .button-state-blue:active {
@@ -389,8 +385,8 @@ body {
   padding: 0;
 }
 
-  .recomendation-pictures{
-  order:  -1;
+.recomendation-pictures {
+  order: -1;
 }
 
 .search-hotels {
@@ -451,13 +447,11 @@ body {
 }
 
 .social-link:hover {
-  outline: none;
   fill: #68A2CA;
 }
 
 .social-link:focus {
-  outline: none;
-   fill: #68A2CA;
+  fill: #68A2CA;
   background-color: #000000;
 }
 
@@ -470,7 +464,6 @@ body {
 }
 
 .item-name {
-
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
@@ -517,7 +510,6 @@ body {
 
 .footer-contacts-phone:focus {
   color: #756157;
-  outline: none;
 }
 
 .footer-contacts-phone:active {
@@ -530,7 +522,6 @@ body {
 
 .footer-logo:focus {
   fill: #756157;
-  outline: none;
 }
 
 .footer-logo:active {
@@ -607,7 +598,6 @@ body {
   border-radius: 4px;
 }
 
-
 .control-input[type="checkbox"]:checked+.box-control {
   background-image: url("../images/catalog/mark.svg");
 }
@@ -654,8 +644,6 @@ body {
 
 .control-input[type="radio"]:checked+.box-control-radio {
   background-image: url("../images/catalog/point.svg");
-  position: absolute;
-
 }
 
 .range {
@@ -821,12 +809,6 @@ body {
 
 .cards-style:focus {
   border-color: #68A2CA;
-  outline: none;
-}
-
-.cards-style:active {
-  border-color: #000000;
-  outline: none;
 }
 
 .price {
@@ -836,7 +818,7 @@ body {
 .filter-button {
   display: grid;
   gap: 32px;
-  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .catalog-formats {
@@ -944,7 +926,6 @@ body {
 
 .select-control:focus {
   border-color: #68A2CA;
-  outline: none;
 }
 
 .select-control:disabled {
@@ -968,7 +949,7 @@ body {
   gap: 16px 20px;
   padding: 20px;
   border: 1px solid #E6E6E6;
-  margin-top: auto;
+  align-content: start;
 }
 
 .product-card-link {
@@ -1005,7 +986,7 @@ body {
 
 .favorite {
   padding: 8px 18px;
-  }
+}
 
 .rating {
   background: #F2F2F2;
@@ -1126,7 +1107,6 @@ body {
 .modal-close-button:active {
   background-color: #E6E6E6;
   opacity: 0.3;
-  outline: none;
 }
 
 .modal-title {
@@ -1308,11 +1288,7 @@ body {
   cursor: pointer;
   outline: none;
 }
-.modal-form-button:focus-within .modal-form-button-svg{
-  fill: #000000;
-  outline: 3px solid #82B3D3;
-  border-radius: 4px;;
-}
+
 
 .minus {
   border-radius: 4px 0px 0px 4px;
@@ -1339,18 +1315,28 @@ body {
   color: #333333;
 }
 
-.modal-form-button-svg{
- fill:  rgba(117, 97, 87, 0.3);
+.modal-form-button-svg {
+  fill: rgba(117, 97, 87, 0.3);
 }
 
-.modal-form-button-svg:hover{
+.modal-form-button-svg:hover {
   fill: #000000;
-   }
-
-     .modal-form-button-svg:active{
-      fill: #000000;
-       }
-
-  .modal-container-close {
-  display: none;
 }
+.modal-form-button:focus-within .modal-form-button-svg {
+  fill: #000000;
+  outline: 3px solid #82B3D3;
+  border-radius: 4px;
+}
+
+.modal-form-button-svg:active {
+  fill: rgba(117, 97, 87, 0.3);
+ }
+
+ .modal-form-button:disabled .modal-form-button-svg{
+  fill: rgba(117, 97, 87, 0.1);
+    }
+
+
+/*  .modal-container-close {
+  display: none;
+} */
