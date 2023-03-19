@@ -502,6 +502,7 @@ body {
   background-color: #FFFFFF;
   text-align: center;
   text-decoration: none;
+  max-width: 400px;
 }
 
 .footer-contacts-phone:hover {
@@ -1337,6 +1338,6 @@ body {
     }
 
 
-/*  .modal-container-close {
+ .modal-container-close {
   display: none;
-} */
+}
