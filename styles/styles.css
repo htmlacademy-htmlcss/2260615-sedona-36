@@ -1196,11 +1196,11 @@ body {
   border-radius: 4px;
 }
 
-.date-check:hover {
+.date-check:hover:not(:disabled) {
   background: #E6E6E6;
 }
 
-.date-check:focus {
+.date-check:focus{
   background: #E6E6E6;
   outline: 3px solid #83B3D3;
 }
@@ -1389,6 +1389,6 @@ body {
   fill: rgba(117, 97, 87, 0.1);
 }
 
-.modal-container-close {
+/* .modal-container-close {
   display: none;
-}
+} */
