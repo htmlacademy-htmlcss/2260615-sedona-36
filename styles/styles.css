@@ -181,7 +181,7 @@ body {
 
 .button-state:disabled {
   background-color: #E5E5E5;
- color: #ffffff;
+  color: #ffffff;
 }
 
 .button-state-green {
@@ -222,7 +222,7 @@ body {
   color: #82B3D3;
 }
 
- .button-state-blue:disabled {
+.button-state-blue:disabled {
   background-color: #E5E5E5;
   color: #ffffff;
 }
@@ -322,7 +322,6 @@ body {
   background: rgba(255, 255, 255, 0.3);
 }
 
-
 .advantages-list {
   display: flex;
   flex-wrap: wrap;
@@ -341,7 +340,6 @@ body {
   width: 230px;
   padding: 112px 85px;
 }
-
 
 .photo-canyon {
   order: -1;
@@ -389,7 +387,7 @@ body {
   padding-top: 101px;
 }
 
-.house::before{
+.house::before {
   position: absolute;
   display: block;
   content: "";
@@ -399,7 +397,7 @@ body {
   top: 0;
 }
 
-.food::before{
+.food::before {
   position: absolute;
   display: block;
   content: "";
@@ -410,7 +408,7 @@ body {
   left: -15px;
 }
 
-.souvenir::before{
+.souvenir::before {
   position: absolute;
   display: block;
   content: "";
@@ -661,14 +659,13 @@ body {
 }
 
 .control-input:disabled+.box-control,
-.control-input:disabled~.control-name{
+.control-input:disabled~.control-name {
   opacity: 0.1;
   pointer-events: none;
 }
 
-
 .control-input[type="radio"]:checked+.box-control-radio {
-    background-image: url("../images/catalog/point.svg");
+  background-image: url("../images/catalog/point.svg");
 }
 
 .range {
@@ -702,7 +699,7 @@ body {
   outline: 3px solid #83B3D3;
 }
 
-.scale-from-start-number:active:not(:disabled){
+.scale-from-start-number:active:not(:disabled) {
   background: #E6E6E6;
   outline: 3px solid #000000;
 }
@@ -869,7 +866,6 @@ body {
 .cards-style-list {
   display: flex;
   margin: 0;
-
   padding: 0;
   list-style-type: none;
   gap: 8px;
@@ -893,22 +889,22 @@ body {
   background-color: transparent;
 }
 
-.catalog-button-reset:hover{
+.catalog-button-reset:hover {
   opacity: 0.6;
 }
 
-.catalog-button-reset:focus{
+.catalog-button-reset:focus {
   outline: 3px solid #83B3D3;
 }
 
-.catalog-button-reset:active{
-  color:rgba(255, 255, 255, 0.3);
+.catalog-button-reset:active {
+  color: rgba(255, 255, 255, 0.3);
   outline: none;
 }
 
-.catalog-button-reset:disabled{
- opacity: 0.1;
- color:inherit;
+.catalog-button-reset:disabled {
+  opacity: 0.1;
+  color: inherit;
 }
 
 .star-1 {
@@ -1094,14 +1090,13 @@ body {
   padding: 14px 20px;
 }
 
-
 .subscribe-form {
   display: flex;
   width: 684px;
 }
 
-.subscribe-email:disabled{
-  background-color:#ffffff;
+.subscribe-email:disabled {
+  background-color: #ffffff;
   opacity: 0.1;
 }
 
@@ -1347,7 +1342,6 @@ body {
   outline: none;
 }
 
-
 .minus {
   border-radius: 4px 0px 0px 4px;
 }
@@ -1380,6 +1374,7 @@ body {
 .modal-form-button-svg:hover {
   fill: #000000;
 }
+
 .modal-form-button:focus-within .modal-form-button-svg {
   fill: #000000;
   outline: 3px solid #82B3D3;
@@ -1388,13 +1383,12 @@ body {
 
 .modal-form-button-svg:active {
   fill: rgba(117, 97, 87, 0.3);
- }
+}
 
- .modal-form-button:disabled .modal-form-button-svg{
+.modal-form-button:disabled .modal-form-button-svg {
   fill: rgba(117, 97, 87, 0.1);
-    }
+}
 
-
- .modal-container-close {
+.modal-container-close {
   display: none;
 }
