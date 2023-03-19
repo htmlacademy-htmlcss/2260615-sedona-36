@@ -606,14 +606,17 @@ body {
   margin: 0;
 }
 
-.control {
+.catalog-filter-item {
   position: relative;
-  padding-left: 36px;
   display: flex;
   font-size: 18px;
   line-height: 23px;
   flex-wrap: nowrap;
   align-items: center;
+}
+
+.control {
+  padding-left: 36px;
 }
 
 .box-control {
@@ -642,24 +645,44 @@ body {
   border-radius: 50%;
 }
 
-.control:hover:not(.control-input:disabled) {
+.control-input:hover~.control,
+.control-input:hover+.box-control {
   opacity: 0.6;
 }
 
-.control:active:not(.control-input:disabled) {
+.control-input:focus-within~.box-control {
+  outline: 3px solid #83B3D3;
+}
+
+.control-input:active~.control,
+.control-input:active~.box-control {
+  opacity: 0.3;
+ }
+
+.control-input:disabled+.box-control {
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+.control-input:disabled~ .control{
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+.control-input:hover~.box-control-radio {
+  opacity: 0.6;
+}
+
+.control-input:focus-within~.box-control-radio {
+  outline: 3px solid #83B3D3;
+}
+
+.control-input:active,
+.control-input:active~.box-control-radio {
   opacity: 0.3;
 }
 
-.control:focus-within:not(:disabled) .box-control {
-  outline: 3px solid #83B3D3;
-}
-
-.control:focus-within:not(:disabled) .box-control-radio {
-  outline: 3px solid #83B3D3;
-}
-
-.control-input:disabled+.box-control,
-.control-input:disabled~.control-name {
+.control-input:disabled+.box-control-radio  {
   opacity: 0.1;
   pointer-events: none;
 }
@@ -853,7 +876,7 @@ body {
 .filter-button {
   display: grid;
   gap: 32px;
-  margin-bottom: auto;
+  margin-top: auto;
 }
 
 .catalog-formats {
@@ -1196,7 +1219,7 @@ body {
   border-radius: 4px;
 }
 
-.date-check:hover {
+.date-check:hover:not(:disabled) {
   background: #E6E6E6;
 }
 
