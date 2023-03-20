@@ -522,7 +522,11 @@ body {
   background-repeat: no-repeat;
   padding: 96px 258px 104px;
 }
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
 
+}
 .footer-contacts-phone {
   font-size: 40px;
   line-height: 40px;
@@ -1022,13 +1026,20 @@ body {
   gap: 16px 20px;
   padding: 20px;
   border: 1px solid #E6E6E6;
-  align-content: start;
+  }
+
+.product-card-information{
+  display: grid;
+  grid-template-columns: 140px 140px;
+  gap: 16px 20px;
+  margin-top: auto;
 }
 
 .product-card-link {
   grid-column: 1/-1;
   color: #000000;
   text-decoration: none;
+  margin-bottom: auto;
 }
 
 .product-card-titel {
