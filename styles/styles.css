@@ -522,11 +522,13 @@ body {
   background-repeat: no-repeat;
   padding: 96px 258px 104px;
 }
+
 .footer-contacts {
   display: flex;
   flex-direction: column;
 
 }
+
 .footer-contacts-phone {
   font-size: 40px;
   line-height: 40px;
@@ -661,14 +663,14 @@ body {
 .control-input:active~.control,
 .control-input:active~.box-control {
   opacity: 0.3;
- }
+}
 
 .control-input:disabled+.box-control {
   opacity: 0.1;
   pointer-events: none;
 }
 
-.control-input:disabled~ .control{
+.control-input:disabled~.control {
   opacity: 0.1;
   pointer-events: none;
 }
@@ -686,7 +688,7 @@ body {
   opacity: 0.3;
 }
 
-.control-input:disabled+.box-control-radio  {
+.control-input:disabled+.box-control-radio {
   opacity: 0.1;
   pointer-events: none;
 }
@@ -1026,9 +1028,9 @@ body {
   gap: 16px 20px;
   padding: 20px;
   border: 1px solid #E6E6E6;
-  }
+}
 
-.product-card-information{
+.product-card-information {
   display: grid;
   grid-template-columns: 140px 140px;
   gap: 16px 20px;
