@@ -460,7 +460,7 @@ body {
 .page-footer-container {
   display: flex;
   justify-content: space-between;
-  margin: 43px 70px 30px;
+  margin: 40px 70px 30px;
   align-content: flex-start;
   align-self: center;
   align-items: center;
@@ -526,7 +526,6 @@ body {
 .footer-contacts {
   display: flex;
   flex-direction: column;
-
 }
 
 .footer-contacts-phone {
@@ -1049,7 +1048,7 @@ body {
   font-size: 24px;
   line-height: 28px;
   margin: 0;
-  margin-top: 12px;
+  margin-top: 10px;
 }
 
 .product-card-price {
